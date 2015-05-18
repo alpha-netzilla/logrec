@@ -192,7 +192,7 @@ void read_from_terminal_write_to_masterpty(){
         strcpy(stopflagp, "0");
       }
       ws = write(master, inbuf, rs);
-      if (ws <0) fail();
+      if (ws < 0) fail();
     }
   }
   done();
@@ -224,7 +224,7 @@ void read_from_masterpty_write_to_terminal(){
     rs = read(master, outbuf, sizeof(outbuf));
 
     // When received a EOF(Ctrl+D), quit a loop.
-    if ( rs <=0 ) break;
+    if ( rs <= 0 ) break;
 
     if((strcmp(stopflagp, "1")) == 0){
       get_time(time_buf);
