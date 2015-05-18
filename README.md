@@ -15,8 +15,8 @@ $ ./logrec /var/logrec/some_user
 
 3. check processes  
 $ ps auxwf | grep logrec  
-root     10925  (snip) \_ ./logrec /var/logrec/some_user  
-root     10926  (snip)     \_ ./logrec /var/logrec/some_user
+root     10925  (snip)  \_ ./logrec /var/logrec/some_user  
+root     10926  (snip)      \_ ./logrec /var/logrec/some_user
 
 
 # Usage and Result  
@@ -25,9 +25,9 @@ root     10926  (snip)     \_ ./logrec /var/logrec/some_user
 2. Check a file.  
 $ cat /var/logrec/some_user  
 yyyy-mm-dd 00:00:00 logrec started  
-yyyy-mm-dd 00:00:05 # ls  
-yyyy-mm-dd 00:00:10 # ssh example.com  
-yyyy-mm-dd 00:00:15 # ls
+yyyy-mm-dd 00:00:05 $ ls  
+yyyy-mm-dd 00:00:10 $ ssh example.com  
+yyyy-mm-dd 00:00:15 $ ls
 
 3. when quitting the tool  
 Ctrl + D
