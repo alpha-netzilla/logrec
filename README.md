@@ -40,7 +40,7 @@ For checking normality of the tool, hit some commands.
 
 
 # See also
-See http://alpha-netzilla.blogspot.jp/2015/05/logrec.html
+See http://alpha-netzilla.blogspot.com/2015/05/logrec.html
 
 
 
