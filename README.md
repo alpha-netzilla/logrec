@@ -7,7 +7,7 @@ Outputs are not recorded. Just do only commands a user hits.
 
 # Usage
 1. build on linux  
-$ gcc  -lutil -lpthread  logrec.c -o logrec
+$ gcc  -lutil logrec.c -o logrec
 
 2. execute  
 Argument is a file to record logs.  
